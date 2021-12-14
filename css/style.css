@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgba(191, 226, 217, 0.1);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.review{
+    background: white;
+    padding:20px 30px ;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,.1);
+}
+#person-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+}
+.title{
+    text-align: center;
+}
+.underline{
+    border-radius: 5px;
+    height: 4px;
+    background: hsla(205, 78%, 60%, 0.6);
+    width: 100px;
+    margin-bottom: 45px;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.img-container{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background:  hsla(205, 78%, 60%, 0.6);;
+    z-index: 0;
+}
+
+
+.quote{
+    font-size: 20px;
+    top: 10px;
+    
+    padding: 9px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    background:  hsla(205, 78%, 60%);
+    border-radius: 50%;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+#author{
+    margin-top: 25px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+#job{
+    color: hsl(205, 78%, 60%);
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+#info{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    opacity: 0.6;
+}
+.button-container{
+    margin: 15px 0;
+}
+.btn{
+    outline: none;
+    margin: 0 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: hsla(205, 78%, 60%, 0.6);
+}
+.random-btn{
+    padding: 7px 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 10px;
+    color: hsl(205, 78%, 60%);
+    background: hsla(205, 78%, 60%, 0.1);
+    border: 2px solid hsla(205, 78%, 60%, 0.6);
+}
+
+
+
